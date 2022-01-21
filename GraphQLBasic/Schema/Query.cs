@@ -27,7 +27,7 @@ namespace GraphQLBasic.Schema
 
         public async Task<List<CourseType>> GetCoursesAsync()
         {
-            await Task.Delay(1000);
+            await Task.Delay(100);
             return _dataService.GetCourses();
         }
 
